@@ -1,0 +1,109 @@
+# ========== COMMON ==========
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+packages/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ========== FLUTTER ==========
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+.idea/
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+macos/.symlinks/
+web/generated_plugin_registrant.dart
+*.iml
+
+# ========== REACT JS ==========
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+*.local
+.vscode/
+
+# ========== C# .NET ==========
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vscode/
+_ReSharper*/
+*.ncrunch*
+*.VisualState.xml
+TestResults/
+*.dbmdl
+*.bak
+*.orig
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet watch
+**/Properties/launchSettings.json
+
+# ========== PYTHON / AIOGRAM ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+.cache/
+pip-wheel-metadata/
+venv/
+env/
+ENV/
+.venv/
+.idea/
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Aiogram specific (if using loggers, sessions, etc.)
+*.session
+sessions/
+*.db
+local.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ========== END ==========
